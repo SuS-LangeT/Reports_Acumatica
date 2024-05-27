@@ -10,7 +10,15 @@
         </PictureBox>
       </Items>
     </PageHeader>
-    <Detail Name="detailSection1" />
+    <Detail Name="detailSection1">
+      <Items>
+        <TextBox Name="textBox1">
+          <Location>24px, 8px</Location>
+          <Size>184px, 80px</Size>
+          <Value>textBox1</Value>
+        </TextBox>
+      </Items>
+    </Detail>
     <PageFooter Name="pageFooterSection1" />
   </Sections>
 </Report>
