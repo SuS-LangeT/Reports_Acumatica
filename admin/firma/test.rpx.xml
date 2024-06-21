@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="20211215" Name="report1">
+  <Sections>
+    <PageHeader Name="pageHeaderSection1">
+      <Items>
+        <PictureBox Name="pictureBox1">
+          <Location>0px, 0px</Location>
+          <QRCodeSettings />
+          <Size>336px, 96px</Size>
+        </PictureBox>
+      </Items>
+    </PageHeader>
+    <Detail Name="detailSection1">
+      <Items>
+        <TextBox Name="textBox1">
+          <Location>24px, 8px</Location>
+          <Size>184px, 80px</Size>
+          <Value>textBox1</Value>
+        </TextBox>
+      </Items>
+    </Detail>
+    <PageFooter Name="pageFooterSection1" />
+  </Sections>
+</Report>
